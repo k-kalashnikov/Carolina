@@ -1,6 +1,6 @@
 using System;
 
-namespace Carolina.Models
+namespace Carolina.ViewModels
 {
 	public class ErrorViewModel
 	{
