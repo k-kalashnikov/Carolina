@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Baisc", "Baisc.csproj", "{75B334EE-E064-444A-BF85-42C07D0433FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75B334EE-E064-444A-BF85-42C07D0433FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B334EE-E064-444A-BF85-42C07D0433FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B334EE-E064-444A-BF85-42C07D0433FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B334EE-E064-444A-BF85-42C07D0433FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CE15C41-71AD-4436-BBE5-239CDF88CBBE}
+	EndGlobalSection
+EndGlobal
