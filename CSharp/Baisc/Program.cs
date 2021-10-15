@@ -6,8 +6,10 @@ namespace Baisc
     {
         static void Main(string[] args)
         {
-            string aFriend = "Kendra";
-            Console.WriteLine($"Hello {aFriend}!");
+            string firstFriend = "Aleks";
+            string secondFriend = "Izera"
+
+            Console.WriteLine($"My friends are {firstFriend} and {secondFriend}");
         }
     }
 }
