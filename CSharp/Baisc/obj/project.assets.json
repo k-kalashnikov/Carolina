@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gitke\\Desktop\\Baisc\\Baisc\\Baisc.csproj",
+      "projectUniqueName": "C:\\Users\\Gitke\\Carolina\\CSharp\\Baisc\\Baisc.csproj",
       "projectName": "Baisc",
-      "projectPath": "C:\\Users\\Gitke\\Desktop\\Baisc\\Baisc\\Baisc.csproj",
+      "projectPath": "C:\\Users\\Gitke\\Carolina\\CSharp\\Baisc\\Baisc.csproj",
       "packagesPath": "C:\\Users\\Gitke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gitke\\Desktop\\Baisc\\Baisc\\obj\\",
+      "outputPath": "C:\\Users\\Gitke\\Carolina\\CSharp\\Baisc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gitke\\AppData\\Roaming\\NuGet\\NuGet.Config",
