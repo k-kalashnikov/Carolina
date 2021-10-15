@@ -6,7 +6,9 @@ namespace Baisc
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World2!");
+            string aFriend = "Kendra";
+            Console.WriteLine($"Hello {aFriend}!");
         }
     }
 }
+
