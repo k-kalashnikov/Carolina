@@ -6,87 +6,149 @@ namespace Baisc
     {
         static void Main(string[] args)
         {
-            string firstFriend = "Aleks";
-            string secondFriend = "Izera";
+            branches();
 
-            Console.WriteLine($"My friends are {firstFriend} and {secondFriend}");
-
-            Console.WriteLine($"The name {firstFriend} has {firstFriend.Length} letters.");
-            Console.WriteLine($"The name {secondFriend} had {secondFriend.Length} letters.");
+            static void friends()
             {
 
-                string greeting = "    Hello World!    ";
-                Console.WriteLine($"[{greeting}]");
+                string firstFriend = "Aleks";
+                string secondFriend = "Izera";
 
-                string trimmedGreeting = greeting.TrimStart();
-                Console.WriteLine($"[{trimmedGreeting}]");
+                Console.WriteLine($"My friends are {firstFriend} and {secondFriend}");
 
-                trimmedGreeting = greeting.TrimEnd();
-                Console.WriteLine($"[{trimmedGreeting}]");
-
-                trimmedGreeting = greeting.Trim();
-                Console.WriteLine($"[{trimmedGreeting}]");
+                Console.WriteLine($"The name {firstFriend} has {firstFriend.Length} letters.");
+                Console.WriteLine($"The name {secondFriend} had {secondFriend.Length} letters.");
             }
 
+            static void Hello()
             {
-                string sayHello = "Hello World!";
-                Console.WriteLine(sayHello);
-                sayHello = sayHello.Replace("Hello", "Greetings");
-                Console.WriteLine(sayHello);
+                {
 
-                Console.WriteLine(sayHello.ToUpper());
-                Console.WriteLine(sayHello.ToLower());
+                    string greeting = "    Hello World!    ";
+                    Console.WriteLine($"[{greeting}]");
+
+                    string trimmedGreeting = greeting.TrimStart();
+                    Console.WriteLine($"[{trimmedGreeting}]");
+
+                    trimmedGreeting = greeting.TrimEnd();
+                    Console.WriteLine($"[{trimmedGreeting}]");
+
+                    trimmedGreeting = greeting.Trim();
+                    Console.WriteLine($"[{trimmedGreeting}]");
+                }
+
+                {
+                    string sayHello = "Hello World!";
+                    Console.WriteLine(sayHello);
+                    sayHello = sayHello.Replace("Hello", "Greetings");
+                    Console.WriteLine(sayHello);
+
+                    Console.WriteLine(sayHello.ToUpper());
+                    Console.WriteLine(sayHello.ToLower());
+                }
+
+                {
+                    string songLyrics = "You say goodbye, and I say hello";
+
+                    var result1 = songLyrics.Contains("goodbye");
+
+                    Console.WriteLine(result1);
+                    Console.WriteLine(songLyrics.Contains("goodbye"));
+                    Console.WriteLine(songLyrics.Contains("greetings"));
+
+                    Console.WriteLine(songLyrics.StartsWith("You"));
+                    Console.WriteLine(songLyrics.EndsWith("hello"));
+                }
             }
 
+            static void Numbers()
             {
-                string songLyrics = "You say goodbye, and I say hello";
 
-                var result1 = songLyrics.Contains("goodbye");
 
-                Console.WriteLine(result1);
-                Console.WriteLine(songLyrics.Contains("goodbye"));
-                Console.WriteLine(songLyrics.Contains("greetings"));
+                {
+                    int a = 7;
+                    int b = 4;
+                    int c = 3;
+                    int d = (a + b) / c;
+                    int e = (a + b) % c;
+                    Console.WriteLine($"quotient: {d}");
+                    Console.WriteLine($"remainder: {e}");
+                }
 
-                Console.WriteLine(songLyrics.StartsWith("You"));
-                Console.WriteLine(songLyrics.EndsWith("hello"));
+                {
+                    int max = int.MaxValue;
+                    int min = int.MinValue;
+                    Console.WriteLine($"The range of integers is {min} to {max}");
+
+                    int what = max + 3;
+                    Console.WriteLine($"An example of overflow: {what}");
+                }
+
+                {
+                    double a = 5;
+                    double b = 4;
+                    double c = 2;
+                    double d = (a + b) / c;
+                    Console.WriteLine(d);
+
+                    double max = double.MaxValue;
+                    double min = double.MinValue;
+                    Console.WriteLine($"The range of double is {min} to {max}");
+
+                    double third = 1.0 / 3.0;
+                    Console.WriteLine(third);
+                }
+
+                {
+                    decimal min = decimal.MinValue;
+                    decimal max = decimal.MaxValue;
+                    Console.WriteLine($"The range on the decimal is {min} to {max}");
+
+
+                    double a = 1.0;
+                    double b = 3.0;
+                    Console.WriteLine(a / b);
+
+                    decimal c = 1.0M;
+                    decimal d = 3.0M;
+                    Console.WriteLine(c / d);
+
+                }
+
+                {
+                    decimal min1 = decimal.MinValue;
+                    decimal max1 = decimal.MaxValue;
+                    Console.WriteLine($"The range of the decimak type is {min1} to {max1}");
+
+                    int min2 = int.MinValue;
+                    int max2 = int.MaxValue;
+                    Console.WriteLine($"The range of the int type is {min2} to {max2}");
+
+                    long min3 = long.MinValue;
+                    long max3 = long.MaxValue;
+                    Console.WriteLine($"The range of the long type is {min3} to {max3}");
+
+                    short min4 = short.MinValue;
+                    short max4 = short.MaxValue;
+                    Console.WriteLine($"The range of the short type is {min4} to {max4}");
+                }
+
+                {
+                    double radius = 3.52;
+                    double area = Math.PI * radius * radius;
+                    Console.WriteLine($"The circle ares = {area}");
+                }
             }
 
+            static void branches()
             {
-                int a = 7;
-                int b = 4;
-                int c = 3;
-                int d = (a + b) / c;
-                int e = (a + b) % c;
-                Console.WriteLine($"quotient: {d}");
-                Console.WriteLine($"remainder: {e}");
+                int a = 5;
+                int b = 6;
+                if (a + b > 10)
+                    Console.WriteLine("The answer is greater than 10.");
+                
+
             }
-
-            {
-                int max = int.MaxValue;
-                int min = int.MinValue;
-                Console.WriteLine($"The range of integers is {min} to {max}");
-
-                int what = max + 3;
-                Console.WriteLine($"An example of overflow: {what}");
-            }
-
-            {
-                double a = 5;
-                double b = 4;
-                double c = 2;
-                double d = (a + b) / c;
-                Console.WriteLine(d);
-
-                double max = double.MaxValue;
-                double min = double.MinValue;
-                Console.WriteLine($"The range of double is {min} to {max}");
-
-                double third = 1.0 / 3.0;
-                Console.WriteLine(third);
-            }
-
-
         }
     }
 }
-
