@@ -6,7 +6,7 @@ namespace Baisc
     {
         static void Main(string[] args)
         {
-            branches2();
+            loops2();
 
             static void friends()
             {
@@ -192,6 +192,29 @@ namespace Baisc
                     Console.WriteLine("Or the first number is not equal to the second");
                 }
             }
+
+            static void loops()
+            {
+                int counter = 0;
+                do
+                {
+                    Console.WriteLine($"Hello World! This counter is {counter}");
+                    counter++;
+                } while (counter < 10);
+
+            }
+
+            static void loops2()
+            {
+                for (int index = 0; index < 10; index++)
+                {
+                    Console.WriteLine($"Hello World! The index is {index}");
+                }
+            }
+
+
+
+
 
         }
     }
