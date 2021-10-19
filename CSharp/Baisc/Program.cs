@@ -6,7 +6,7 @@ namespace Baisc
     {
         static void Main(string[] args)
         {
-            loopsandbranches();
+            loopsandbranches2();
 
             static void friends()
             {
@@ -241,6 +241,25 @@ namespace Baisc
                     if (counter % 3 == 0)
                     {
                         sum = sum + counter;
+                    }
+                }
+                Console.WriteLine($"The sum is {sum}");
+            }
+
+            static void loopsandbranches2()
+            {
+                int counter = 1;
+                int sum = 0;
+                while (counter < 21)
+                {
+                    if (counter % 3 == 0)
+                    {
+                        sum = sum + counter;
+                        counter++;
+                    }
+                    else
+                    {
+                        counter++;
                     }
                 }
                 Console.WriteLine($"The sum is {sum}");
