@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Baisc
 {
@@ -6,7 +7,7 @@ namespace Baisc
     {
         static void Main(string[] args)
         {
-            loopsandbranches2();
+            modifylist();
 
             static void friends()
             {
@@ -263,6 +264,30 @@ namespace Baisc
                     }
                 }
                 Console.WriteLine($"The sum is {sum}");
+            }
+
+            static void list()
+            {
+                var names = new List<string> { "Nikita", "Vika", "Alex", "Izera" };
+                foreach (var name in names)
+                {
+                    Console.WriteLine($"Hello {name.ToUpper()}!");
+                }
+            }
+
+            static void modifylist()
+            {
+                var names = new List<string> { "Nikita", "Vika", "Alex", "Izera" };
+
+                names.Add("Maria");
+                names.Add("Sasha");
+                names.Remove("Nikita");
+                foreach (var name in names)
+                {
+                    Console.WriteLine($" Hello {name.ToUpper()}!");
+                }
+
+                Console.WriteLine(names[1]);
             }
         }
     }
