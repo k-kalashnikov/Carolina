@@ -7,7 +7,7 @@ namespace Baisc
     {
         static void Main(string[] args)
         {
-            modifylist();
+            ssail2();
 
             static void friends()
             {
@@ -289,6 +289,46 @@ namespace Baisc
 
                 Console.WriteLine(names[1]);
             }
+
+            static void ssail()
+            {
+                var names = new List<string> { "WTF", "Vika", "Alex", "Izera" };
+
+                names.Add("Maria");
+                names.Add("Sasha");
+                names.Remove("Vika");
+                foreach (var name in names)
+                {
+                    Console.WriteLine(name);
+                }
+
+                var index = names.IndexOf("Izera");
+
+                if (index == -1)
+                {
+                    Console.WriteLine($"When an item is not found, IndexOf returns {index}");
+                }
+                else
+                {
+                    Console.WriteLine($"The name {names[index]} is at index {index}");
+                }
+            }
+
+            static void ssail2()
+            {
+                var names = new List<string> { "Somebody", "Vika", "Alex", "Izera" };
+
+                names.Add("Maria");
+                names.Add("Sasha");
+
+                names.Sort();
+                foreach (var name in names)
+                {
+                    Console.WriteLine(name);
+                }
+                
+            }
+
         }
     }
 }
