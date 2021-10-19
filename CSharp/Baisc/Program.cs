@@ -6,7 +6,7 @@ namespace Baisc
     {
         static void Main(string[] args)
         {
-            loops2();
+            loopsandbranches();
 
             static void friends()
             {
@@ -212,10 +212,39 @@ namespace Baisc
                 }
             }
 
+            static void loops3()
+            {
+                for (int row = 1; row < 11; row++)
+                {
+                    Console.WriteLine($"The row is {row}");
+                }
 
+                for (char column = 'a'; column < 'k'; column++)
+                {
+                    Console.WriteLine($"The coumn is {column}");
+                }
 
+                for (int row = 1; row < 11; row++)
+                {
+                    for (char column = 'a'; column < 'k'; column++)
+                    {
+                        Console.WriteLine($"The cell is ({row}, {column}");
+                    }
+                }
+            }
 
-
+            static void loopsandbranches()
+            {
+                int sum = 0;
+                for (int counter = 1; counter < 21; counter++)
+                {
+                    if (counter % 3 == 0)
+                    {
+                        sum = sum + counter;
+                    }
+                }
+                Console.WriteLine($"The sum is {sum}");
+            }
         }
     }
 }
