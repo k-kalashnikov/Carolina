@@ -18,4 +18,5 @@ namespace MySuperBank
             this.Date = date;
             this.Notes = note;
         }
+    }
 }
