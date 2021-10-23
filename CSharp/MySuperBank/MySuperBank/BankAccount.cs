@@ -58,5 +58,19 @@ namespace MySuperBank
             var withdrawl = new Transaction(-amount, date, note);
             allTransactions.Add(withdrawl);
         }
+
+        public string GetAccountHistory()
+        {
+            var report = new StringBuilder();
+
+            //HEADER
+            report.AppendLine("Date\t\tAmount\t\tNote");
+            foreach (var item in allTransactions)
+            {
+                //ROWS
+                report.AppendLine($"{item.Date.ToShortDateString()}\t{item.Amount}\t{item.Notes}");
+            }
+            return report.ToString();
+        }
     }
 }
