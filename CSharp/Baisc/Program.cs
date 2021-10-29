@@ -7,9 +7,10 @@ namespace Baisc
     {
         static void Main(string[] args)
         {
-            listofothertyper();
+            loops();
+        }
 
-            static void friends()
+        static void friends()
             {
 
                 string firstFriend = "Aleks";
@@ -21,7 +22,7 @@ namespace Baisc
                 Console.WriteLine($"The name {secondFriend} had {secondFriend.Length} letters.");
             }
 
-            static void Hello()
+        static void Hello()
             {
                 {
 
@@ -62,7 +63,7 @@ namespace Baisc
                 }
             }
 
-            static void Numbers()
+        static void Numbers()
             {
 
 
@@ -141,7 +142,7 @@ namespace Baisc
                 }
             }
 
-            static void branches()
+        static void branches()
             {
                 int a = 5;
                 int b = 6;
@@ -158,7 +159,7 @@ namespace Baisc
                 }
             }
 
-            static void branches2()
+        static void branches2()
             {
                 int a = 5;
                 int b = 6;
@@ -176,7 +177,7 @@ namespace Baisc
                 }
             }
 
-            static void branches3()
+        static void branches3()
             {
                 int a = 5;
                 int b = 6;
@@ -194,7 +195,7 @@ namespace Baisc
                 }
             }
 
-            static void loops()
+        static void loops()
             {
                 int counter = 0;
                 do
@@ -205,7 +206,7 @@ namespace Baisc
 
             }
 
-            static void loops2()
+        static void loops2()
             {
                 for (int index = 0; index < 10; index++)
                 {
@@ -213,7 +214,7 @@ namespace Baisc
                 }
             }
 
-            static void loops3()
+        static void loops3()
             {
                 for (int row = 1; row < 11; row++)
                 {
@@ -234,7 +235,7 @@ namespace Baisc
                 }
             }
 
-            static void loopsandbranches()
+        static void loopsandbranches()
             {
                 int sum = 0;
                 for (int counter = 1; counter < 21; counter++)
@@ -247,7 +248,7 @@ namespace Baisc
                 Console.WriteLine($"The sum is {sum}");
             }
 
-            static void loopsandbranches2()
+        static void loopsandbranches2()
             {
                 int counter = 1;
                 int sum = 0;
@@ -266,7 +267,7 @@ namespace Baisc
                 Console.WriteLine($"The sum is {sum}");
             }
 
-            static void list()
+        static void list()
             {
                 var names = new List<string> { "Nikita", "Vika", "Alex", "Izera" };
                 foreach (var name in names)
@@ -275,7 +276,7 @@ namespace Baisc
                 }
             }
 
-            static void modifylist()
+        static void modifylist()
             {
                 var names = new List<string> { "Nikita", "Vika", "Alex", "Izera" };
 
@@ -290,7 +291,7 @@ namespace Baisc
                 Console.WriteLine(names[1]);
             }
 
-            static void ssail()
+        static void ssail()
             {
                 var names = new List<string> { "WTF", "Vika", "Alex", "Izera" };
 
@@ -314,7 +315,7 @@ namespace Baisc
                 }
             }
 
-            static void ssail2()
+        static void ssail2()
             {
                 var names = new List<string> { "Somebody", "Vika", "Alex", "Izera" };
 
@@ -329,7 +330,7 @@ namespace Baisc
                 
             }
 
-            static void listofothertyper()
+        static void listofothertyper()
             {
                 var fibonacciNumbers = new List<int> { 1, 1 };
 
@@ -343,7 +344,6 @@ namespace Baisc
                 foreach (var item in fibonacciNumbers)
                     Console.WriteLine(item);
             }
-
-        }
+ 
     }
 }
