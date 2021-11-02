@@ -1,0 +1,14 @@
+C:\Users\Gitke\Carolina\CSharp\Baisc\bin\Debug\netcoreapp3.1\Baisc.exe
+C:\Users\Gitke\Carolina\CSharp\Baisc\bin\Debug\netcoreapp3.1\Baisc.deps.json
+C:\Users\Gitke\Carolina\CSharp\Baisc\bin\Debug\netcoreapp3.1\Baisc.runtimeconfig.json
+C:\Users\Gitke\Carolina\CSharp\Baisc\bin\Debug\netcoreapp3.1\Baisc.runtimeconfig.dev.json
+C:\Users\Gitke\Carolina\CSharp\Baisc\bin\Debug\netcoreapp3.1\Baisc.dll
+C:\Users\Gitke\Carolina\CSharp\Baisc\bin\Debug\netcoreapp3.1\Baisc.pdb
+C:\Users\Gitke\Carolina\CSharp\Baisc\obj\Debug\netcoreapp3.1\Baisc.csproj.AssemblyReference.cache
+C:\Users\Gitke\Carolina\CSharp\Baisc\obj\Debug\netcoreapp3.1\Baisc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gitke\Carolina\CSharp\Baisc\obj\Debug\netcoreapp3.1\Baisc.AssemblyInfoInputs.cache
+C:\Users\Gitke\Carolina\CSharp\Baisc\obj\Debug\netcoreapp3.1\Baisc.AssemblyInfo.cs
+C:\Users\Gitke\Carolina\CSharp\Baisc\obj\Debug\netcoreapp3.1\Baisc.csproj.CoreCompileInputs.cache
+C:\Users\Gitke\Carolina\CSharp\Baisc\obj\Debug\netcoreapp3.1\Baisc.dll
+C:\Users\Gitke\Carolina\CSharp\Baisc\obj\Debug\netcoreapp3.1\Baisc.pdb
+C:\Users\Gitke\Carolina\CSharp\Baisc\obj\Debug\netcoreapp3.1\Baisc.genruntimeconfig.cache
