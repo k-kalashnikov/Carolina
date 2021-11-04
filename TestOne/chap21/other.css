@@ -1,0 +1,11 @@
+.r, .b {
+    padding: 10px;
+    background: #FCE3EE;
+}
+.r {
+    border radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+.b {border 1px solid #ED1C24; }
+.n {border: none; }

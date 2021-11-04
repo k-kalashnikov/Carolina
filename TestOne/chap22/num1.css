@@ -1,0 +1,11 @@
+body {
+    font: 0.9em Arial, Verdana, Helvetica, sans-serif;
+    color: #000;
+    background: #fff;
+    margin: 0;
+}
+top {
+    margin-bottom: 10px;
+    padding-left: 3%;
+    border-bottom: 1px solid #acacac;
+}

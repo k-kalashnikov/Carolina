@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Дочерние селекторы</title>
+    <style>
+        UL#menu {
+            margin: 0; padding: 0;
+        }
+        UL#menu > LI {
+            list-style: none;
+            width: 100px;
+            background: #b3d9d2;
+            color: #333;
+            padding: 5px;
+            font-family: Arial, sans-serif;
+            font-size: 90%;
+            font-weight: bold;
+            float: left;
+        }
+        LI > UL {
+            list-style: none;
+            margin: 0; padding: 0;
+            border-bottom: 1px solid#666;
+            padding-top: 5px;
+        }
+        LI > A {
+            display: block;
+            font-weight: normal;
+            font-size: 90%;
+            background: #fff;
+            border: 1px solid #666;
+            border-bottom: none;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <ul id="menu">
+        <li> Правка
+            <ul>
+                <li><a href="#">Отменить</a></li>
+                <li><a href="#">Вырезать</a></li>
+                <li><a href="#">Копировать</a></li>
+                <li><a href="#">Вставить</a></li>
+            </ul>
+        </li>
+        <li>Начертание
+            <ul>
+                <li><a href="#">Жирное</a></li>
+                <li><a href="#">Курсивное</a></li>
+                <li><a href="#">Подчёркнутое</a></li>
+            </ul>
+        </li>
+        <li>Размер
+            <ul>
+                <li><a href="#">Маленький</a></li>
+                <li><a href="#">Нормальный</a></li>
+                <li><a href="#">Средний</a></li>
+                <li><a href="#">Большой</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
